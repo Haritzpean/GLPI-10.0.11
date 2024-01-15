@@ -7,6 +7,8 @@
 Ce script automatisé déploie et configure une installation de ``GLPI`` ***(Gestionnaire Libre de Parc Informatique)*** sur des machines virtuelles de laboratoire.
 Il met à jour la pile LAMP, installe les dépendances nécessaires, installe et configure la base de données MariaDB, télécharge et configure GLPI, 
 crée un fichier de configuration Apache vhost, et effectue d'autres tâches liées à la sécurité et à la configuration du serveur web pour le déploiement de GLPI.
+Il a été développé et testé sur Debian 12, et il peut également être compatible avec d'autres distributions Linux.
+
 
 **Ce script s'éxécute en ``root``**
 
