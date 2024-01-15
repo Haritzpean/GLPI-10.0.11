@@ -8,6 +8,6 @@ Ce script automatisé déploie et configure une installation de ``GLPI`` ***(Ges
 Il met à jour la pile LAMP, installe les dépendances nécessaires, installe et configure la base de données MariaDB, télécharge et configure GLPI, 
 crée un fichier de configuration Apache vhost, et effectue d'autres tâches liées à la sécurité et à la configuration du serveur web pour le déploiement de GLPI.
 
-**Ce script s'exute en ``root``**
+**Ce script s'éxécute en ``root``**
 
 
