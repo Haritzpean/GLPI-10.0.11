@@ -10,4 +10,16 @@ crée un fichier de configuration Apache vhost, et effectue d'autres tâches li�
 
 **Ce script s'éxécute en ``root``**
 
+## Options du script :
 
+- `-d` : Nom de la base de données GLPI (par défaut: glpi)
+- `-u` : Nom de l'utilisateur de la base de données (par défaut: glpi)
+- `-p` : Mot de passe de la base de données (par défaut: glpi)
+- `-v` : Nom du fichier de configuration Apache vhost (par défaut: barzini-glpi.config)
+- `-s` : Nom du serveur (par défaut: barzini-glpi)
+- `-h` : Affiche cette aide
+
+Exemple d'utilisation :
+
+```bash
+./add_glpi.sh -d ma_base -u mon_utilisateur -p mon_mot_de_passe -v mon_vhost -s mon_serveur
