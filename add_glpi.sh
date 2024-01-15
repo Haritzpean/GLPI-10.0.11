@@ -103,7 +103,6 @@ echo "Création du répertoire qui va recevoir les fichiers de configuration de 
     chown www-data /etc/glpi/
     
 echo "Déplacement du répertoire config"
-    rm -rf /etc/glpi/config
     mv /var/www/glpi/config /etc/glpi
     
 echo "Création du répertoire qui va recevoir les fichiers CSS,Pluggin,etc... de GLPI"    
@@ -111,7 +110,6 @@ echo "Création du répertoire qui va recevoir les fichiers CSS,Pluggin,etc... d
     chown www-data /var/lib/glpi/
     
 echo "Déplacement du répertoire Files"
-    rm -rf /var/lib/glpi/files
     mv /var/www/glpi/files /var/lib/glpi
     
 echo "Création du répertoire log de GLPI"
