@@ -33,7 +33,7 @@ else
     exit 1
 fi
 
-maj="update && apt upgrade && expect"
+maj="update && apt upgrade "
 lamp="apache2 php mariadb-server"
 extensions="php-xml php-common php-json php-mysql php-mbstring php-curl php-gd php-intl php-zip php-bz2 php-imap php-apcu php-ldap php8.2-fpm"
 dbglpi="glpi"
