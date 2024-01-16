@@ -79,9 +79,9 @@ while getopts ":d:u:p:v:s:h:" opt; do
   esac
 done
 echo "mise à jour installation de la pile LAMP ainsi que les extensions."
-    apt "$maj" -y  > /dev/null 2>&1
-    apt install "$lamp" -y > /dev/null 2>&1
-    apt install "$extensions" -y > /dev/null 2>&1
+    apt $maj -y  > /dev/null 2>&1
+    apt install $lamp -y > /dev/null 2>&1
+    apt install $extensions -y > /dev/null 2>&1
     
 echo "Création de la base de données MariaDB et atribution des droits, création de l'utilisateur et autorisation accés time zone"
     mysql -u root -e "CREATE DATABASE IF NOT EXISTS $dbglpi; GRANT ALL PRIVILEGES ON $dbuser.* TO $dbuser@localhost IDENTIFIED BY '$dbpassword';"
