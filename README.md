@@ -10,7 +10,7 @@ crée un fichier de configuration Apache vhost, et effectue d'autres tâches li�
 Il a été développé et testé sur Debian 12, et il peut également être compatible avec d'autres distributions Linux.
 
 
-**Ce script s'éxécute en ``root``**
+### Ce script s'éxécute en **``root``**
 
 ## Options du script :
 
