@@ -25,3 +25,21 @@ Exemple d'utilisation :
 
 ```bash
 ./add_glpi.sh -d ma_base -u mon_utilisateur -p mon_mot_de_passe -v mon_vhost -s mon_serveur
+```
+## Téléchargement et Installation
+
+Pour télécharger et installer le script `add_glpi.sh`, suivez ces étapes simples :
+
+1. Utilisez la commande wget pour télécharger le script depuis le dépôt GitHub :
+
+    ```bash
+    wget https://raw.githubusercontent.com/Haritzpean/GLPI-10.0.11/main/add_glpi.sh
+    ```
+
+2. Exécutez le script avec la commande bash pour effectuer l'installation :
+
+    ```bash
+    bash add_glpi.sh
+    ```
+
+Assurez-vous d'avoir les droits nécessaires pour exécuter le script. Si vous rencontrez des problèmes lors de l'installation, veuillez consulter la documentation du projet ou les problèmes associés sur le dépôt GitHub.
