@@ -164,7 +164,7 @@ echo "Redémarage des services apache et php8.2-fpm"
 echo "Instalation de glpi........"
     php /var/www/glpi/bin/console db:install -H localhost -d "$dbglpi" -u "$dbuser" -p "$dbpassword" -r -f -q -n 
     php /var/www/glpi/bin/console database:enable_timezones > /dev/null 2>&1
-    rm -rf /var/www/glpi/install
+    rm -rf /var/www/glpi/install /var/www/glpi-10.0.11.tgz
     
 mysql -e "UPDATE $dbglpi.glpi_users SET is_active = 0 WHERE name = 'tech';"
 mysql -e "UPDATE $dbglpi.glpi_users SET is_active = 0 WHERE name = 'normal';"
